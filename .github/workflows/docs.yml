@@ -24,11 +24,11 @@ jobs:
           python-version: "3.12"
       - run: pip install sphinx sphinx-rtd-theme numpydoc numpy astropy pandas
       - run: pip install -e .
-      - run: sphinx-build -b html docs docs/_build/html
-      - run: touch docs/_build/html/.nojekyll
+      - run: sphinx-build -b html docs/ _build/html
+      - run: touch _build/html/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/_build/html
+          path: _build/html
 
   deploy:
     needs: build
