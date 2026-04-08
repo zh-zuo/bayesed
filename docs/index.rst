@@ -1,15 +1,9 @@
-.. bayesed documentation master file, created by
-   sphinx-quickstart on Wed Mar 25 11:11:04 2026.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+bayesed
+=======
 
-bayesed documentation
-=====================
-
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
-
+**bayesed** is a Python package for Bayesian SED (Spectral Energy Distribution) modeling.
+It provides tools for reading, validating, and working with photometric data, with
+the goal of fitting SEDs using Bayesian inference.
 
 .. toctree::
    :maxdepth: 2
